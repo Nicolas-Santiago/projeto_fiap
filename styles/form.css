@@ -1,0 +1,30 @@
+body{
+    margin: 8px 209px;
+    padding: 0;
+}
+.conteiner{
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 100%;
+    padding: 16px;
+    text-align: justify;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.image{
+    display:flex;
+    margin-top: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    align-self: center;
+    border-radius:4px;
+}
+.image img{
+    border-radius: 4px;
+}
+.form-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
