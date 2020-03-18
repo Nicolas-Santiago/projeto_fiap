@@ -1,4 +1,4 @@
-body{
+.text-structure{
     margin: 8px 209px;
     padding: 0;
 }
@@ -14,17 +14,28 @@ body{
     flex-direction: column;
 }
 .image{
-    display:flex;
-    margin-top: 32px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    align-self: center;
-    border-radius:4px;
+    text-align: center;
+    margin-bottom: 28px;
 }
-.image img{
-    border-radius: 4px;
+img{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+    
+
 }
 .form-grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
+}
+.description{
+    
+    font-size: 20px;
+        
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 28px;
+    color: #007dcc;
 }
